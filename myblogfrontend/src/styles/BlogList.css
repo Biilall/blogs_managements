@@ -1,0 +1,57 @@
+/* BlogList.css */
+
+.blog-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .blog-list-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .blog-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .blog-body {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .blog-delete-button {
+    align-self: flex-start;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 0.9em;
+  }
+  
+  .blog-delete-button:hover {
+    background-color: #c0392b;
+  }
+  
